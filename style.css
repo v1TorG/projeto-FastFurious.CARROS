@@ -55,6 +55,17 @@ header{
         & ul{
             display: grid;
             grid-template-columns: repeat(3, 100px);
+            & li{
+                & a{
+                    color: #dde6f3;
+                    text-decoration: none;
+                }
+                & a:hover{
+                    color: #beff1b;
+                    transition: 0.5s;
+                
+            }
+            }
         }
     }
 }
@@ -304,7 +315,7 @@ section{
                 }
                 & .conteudo{
 
-                    & .infcar, .h2, .text, .sb {
+                    & .infcar, h2, .text, .sb {
                         transform: translateX(0);
                         opacity: 1;
                        
@@ -315,3 +326,5 @@ section{
     }
 
     }
+
+    
