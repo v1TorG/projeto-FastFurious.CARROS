@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Boldonse&family=Caveat:wght@400..700&family=League+Gothic&family=Shadows+Into+Light&display=swap');
+/*
+font-family: "Caveat", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+*/
+@import url('https://fonts.googleapis.com/css2?family=Boldonse&family=Caveat:wght@400..700&family=League+Gothic&family=Shadows+Into+Light&display=swap');
+/*
+font-family: "Boldonse", system-ui;
+  font-weight: 400;
+  font-style: normal;
+*/
+@import url('https://fonts.googleapis.com/css2?family=Boldonse&family=Caveat:wght@400..700&family=League+Gothic&family=Shadows+Into+Light&display=swap');
+/*
+font-family: "League Gothic", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+*/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: "Boldonse", system-ui;
+}
+
+body{
+    height: 100vh; 
+    margin: 0; 
+    padding: 0;
+
+    background-image: linear-gradient( rgba(0, 0, 0, 0.6), 
+      rgba(0, 0, 0, 0.6) ), url('imgs/droga\ é\ o\ bryan.gif');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+header{
+    position: fixed;
+    width: 80vw;
+    left: 50%;
+    transform: translateX(-50%);
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 500px;
+    gap: 10%;
+    z-index: 2;
+
+    & img{
+        
+        width: 260px;
+    }
+
+    & nav{
+        & ul{
+            display: grid;
+            grid-template-columns: repeat(3, 100px);
+            & li{
+                & a{
+                    color: #dde6f3;
+                    text-decoration: none;
+                }
+                & a:hover{
+                    color: #beff1b;
+                    transition: 0.5s;
+                
+            }
+            }
+        }
+    }
+}
+
+/*-----------------------------------*/
+
+section#redes-sociais{
+    text-align: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    z-index: 10;
+}
+
+
+section#redes-sociais img{
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    border-radius: 50%;
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.712);
+    box-sizing: border-box;
+
+}
+section#redes-sociais img:hover{
+    border: 2px solid rgba(223, 238, 246, 0.757);
+    transform: translate(-3px, -3px);
+    box-shadow: 5px 5px 10px rgba(1, 30, 49, 0.463);
+    transition: transform.3s, border.1s;
+
+}
+
+a{  
+    text-decoration: none;
+}
+
+   

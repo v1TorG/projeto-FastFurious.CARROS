@@ -71,7 +71,7 @@ header{
 }
 
 section{
-    background-image: radial-gradient(#93abca, #213458);
+    background-image: radial-gradient(#81a4d1, #1a315c);
     height: 100vh;
     position: relative;
 
@@ -117,7 +117,7 @@ section{
                 & .a{
                     font-family: "Caveat", cursive;
                     font-size: 10em;
-                    color: #C13E14;
+                    color: #c13f14;
                 }
                 & .b{
                     font-family: "Caveat", cursive;
@@ -247,7 +247,6 @@ section{
                 height: 15px;
                 background-color: #beff1b;
                 border-radius: 50px;
-                transition: 0.5s;
             }
 
             & .ativo{
